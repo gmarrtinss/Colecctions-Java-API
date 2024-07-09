@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cb9de83-8906-4edd-9095-23ba7d0ebc6a" name="Changes" comment="" />
+    <list default="true" id="9cb9de83-8906-4edd-9095-23ba7d0ebc6a" name="Changes" comment="Exercicio de Lista">
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CatalogoLivros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gmarrtinss"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gmarrtinss&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gmarrtinss/Colecctions-Java-API.git",
-    "accountId": "596c786a-4837-479a-819a-665ca8dbee18"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gmarrtinss/Colecctions-Java-API.git&quot;,
+    &quot;accountId&quot;: &quot;596c786a-4837-479a-819a-665ca8dbee18&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -42,18 +48,31 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CatalogoLivros.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
+    "Application.main.java.list.OperacoesBasicas.CatalogoLivros.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main.java.list.OperacoesBasicas.CatalogoLivros">
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CatalogoLivros" />
+      <module name="collections-java-api-2023" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.ListaTarefa" />
       <module name="collections-java-api-2023" />
@@ -67,8 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.list.OperacoesBasicas.CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CatalogoLivros" />
+      <module name="collections-java-api-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.java.list.OperacoesBasicas.CatalogoLivros" />
+        <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.ListaTarefa" />
       </list>
     </recent_temporary>
@@ -82,21 +116,27 @@
       <option name="presentableId" value="Default" />
       <updated>1720147499245</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercicio de Lista">
+      <option name="closed" value="true" />
+      <created>1720230253121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720230253121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercicio de Lista">
+      <option name="closed" value="true" />
+      <created>1720230322327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720230322327</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java</url>
-          <line>32</line>
-          <properties class="main.java.list.OperacoesBasicas.ListaTarefa" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercicio de Lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio de Lista" />
   </component>
 </project>
